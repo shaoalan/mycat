@@ -28,8 +28,8 @@
                resourceName="UserDatabase"/>
       </Realm>
 
-      <Host appBase="" autoDeploy="true" name="localhost" unpackWARs="true" xmlNamespaceAware="false" xmlValidation="false">
-          <Context crossContext="true" debug="5" docBase="/tomcat/webapps" path="" reloadable="false"></Context>
+      <Host appBase="" autoDeploy="true" name="localhost" unpackWARs="true">
+          <Context crossContext="true" docBase="/tomcat/webapps" path=""></Context>
       </Host>
     </Engine>
   </Service>
